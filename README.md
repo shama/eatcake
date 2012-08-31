@@ -4,16 +4,16 @@ A convenient way to install CakePHP with Composer.
 
 ## One Line Install
 
-* `curl https://raw.github.com/shama/eatcake/master/bin/oneline.sh | bash -s NewCakeApp`
+`curl https://raw.github.com/shama/eatcake/master/bin/oneline.sh | bash -s NewCakeApp`
 
 ## Manual Install
 
-* Install [Composer](http://getcomposer.org/)
-* Run the command: `php composer.phar create-project shama/eatcake path/`
+Install [Composer](http://getcomposer.org/) and run the command:
+`php composer.phar create-project shama/eatcake path/`
 
 ## Updating
 
-* Update CakePHP later with: `php composer.phar update` from inside your project directory.
+Update CakePHP later with: `php composer.phar update` from inside your project directory.
 
 ## What?
 
