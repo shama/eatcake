@@ -1,6 +1,6 @@
 # Eat Cake
 
-A convenient way to install CakePHP with Composer.
+A convenient way to install CakePHP with [Composer](http://getcomposer.org/).
 
 ## One Line Install
 
@@ -8,8 +8,8 @@ A convenient way to install CakePHP with Composer.
 
 ## Manual Install
 
-Install [Composer](http://getcomposer.org/) and run the command:
-`php composer.phar create-project shama/eatcake path/`
+* Install Composer with: `curl -s https://getcomposer.org/installer | php`
+* Then create a new project with: `php composer.phar create-project shama/eatcake path/`
 
 ## Updating
 
