@@ -28,21 +28,9 @@ fi
 
 # Get install folder
 if [ -z $1 ]; then
-  pwd=`pwd`
+  pwd=./eatcake
 else
   pwd=./$1
-  # Folder exists?
-  if [ ! -d "$pwd" ]; then
-    mkdir $pwd 2>&1
-  fi
-fi
-
-# install folder empty?
-if [ "$(ls -A $pwd 2>&1 | grep -v oneline-*)" ]; then
-  echo "There appears to be files in [$pwd]." >&2
-  echo "Please install into an empty folder." >&2
-  echo "" >&2
-  exit 1
 fi
 
 # Download Composer
